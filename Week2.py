@@ -49,7 +49,7 @@ def delete():
 control = bool(int(input("Enter 1 to start, 0 to stop: ")))
 
 while(control):
-    print("1, Add\n2, Update\n3, View\n4, Delete a student")
+    print("1, Add a student\n2, Update data\n3, View\n4, Delete a student")
     cho = int(input())
 
     if cho == 1:

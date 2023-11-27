@@ -45,6 +45,7 @@ def delete():
     print("Enter the name")
     dname = input()
     del student[dname]
+    print(dname, " has been deleted")
 
 control = bool(int(input("Enter 1 to start, 0 to stop: ")))
 
@@ -75,6 +76,7 @@ while(control):
             control = bool(int(input("\nEnter 1 to continue, 0 to stop: ")))
     elif cho == 4:
         delete()
+        control = bool(int(input("\nEnter 1 to continue, 0 to stop: ")))
 
 
     
